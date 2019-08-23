@@ -1,5 +1,0 @@
-package co.vinod.springbootdemo.dao;
-
-public interface ProductDao {
-
-}

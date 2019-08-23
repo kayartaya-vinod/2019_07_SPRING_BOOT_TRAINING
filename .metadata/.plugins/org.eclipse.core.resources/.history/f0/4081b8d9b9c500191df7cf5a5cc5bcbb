@@ -1,0 +1,14 @@
+package co.vinod.springbootdemo.controllers;
+
+import org.springframework.web.bind.annotation.RestController;
+
+import co.vinod.springbootdemo.entity.Product;
+
+@RestController
+public class ProductController {
+
+	public Product getOneProduct(Integer id) {
+		return null;
+	}
+	
+}

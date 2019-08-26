@@ -1,0 +1,15 @@
+server:
+   port: 2345
+
+spring:
+   application: 
+      name: customer-service
+   datasource:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://localhost/northwind
+      username: root
+      password: Welcome#123
+   jpa:
+      hibernate: 
+         ddl-auto: none
+

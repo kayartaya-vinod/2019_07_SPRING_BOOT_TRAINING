@@ -1,0 +1,17 @@
+server:
+   port: 8888
+
+spring:
+   application: 
+      name: gateway-service
+      
+zuul:
+   routes:
+      customers:
+         path: /api/customers/**
+         url: http://localhost:2345
+         stripPrefix: false
+      products:
+         path: /api/products/**
+         url: http://localhost:1234
+         stripPrefix: false
